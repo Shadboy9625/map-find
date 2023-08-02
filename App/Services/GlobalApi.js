@@ -12,7 +12,7 @@ const nearByPlace=(lat,lng,type)=>axios.get(BASE_URL+
 
     const searchByText=(searchText)=>axios.get(BASE_URL+
         "/textsearch/json?query="+searchText+
-  "&key="+API_KEY)
+    "&key="+API_KEY)
 
 export default{
     nearByPlace,
